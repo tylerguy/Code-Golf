@@ -1,5 +1,4 @@
 let n = 1;
-
 function a(num) {
   if (num % 3 === 0 && num % 5 === 0) {
     return "FizzBuzz";
@@ -11,7 +10,6 @@ function a(num) {
     return num;
   }
 }
-
 while (n < 100) {
   console.log(a(n));
   n++;
